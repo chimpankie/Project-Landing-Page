@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Alexio Ace Display', Helvetica, Arial, sans-serif;
-    padding: 10px 40px;
 }
 
 .header, 
@@ -123,7 +122,17 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px; 
+    padding: 20px;
+    padding-bottom: 40px;
 }
+
+.information-header {
+    font-size: 36px;
+    font-weight:900;
+    color: #1f2937;
+    margin: 30px;
+}
+
 .item-image {
     border: 4px solid #3882f6;
     border-radius: 8px;
