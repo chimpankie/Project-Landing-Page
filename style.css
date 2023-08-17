@@ -108,6 +108,7 @@ button {
     font-weight: bold;
     color: #f9faf8;
     font-size: 18px;
+    align-self: center;
 }
 
 .information {
@@ -161,4 +162,16 @@ button {
     font-style: bold;
     align-self: flex-end;
 
+}
+
+.calltoaction {
+    background-color:#3882f6 ;
+    margin: 75px 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
