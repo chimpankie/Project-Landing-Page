@@ -60,6 +60,7 @@ body {
 
 .herotext {
     flex: 1;
+    gap: 20px;
 }
 
 .heroimage {
@@ -109,6 +110,7 @@ button {
     color: #f9faf8;
     font-size: 18px;
     align-self: center;
+    margin: 20px 0px;
 }
 
 .information {
