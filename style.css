@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Alexio Ace Display', Helvetica, Arial, sans-serif;
+    margin: 0;
 }
 
 .header, 
