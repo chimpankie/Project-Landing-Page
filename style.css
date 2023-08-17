@@ -169,9 +169,29 @@ button {
     margin: 75px 150px;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
-    padding: 20px 40px;
+    justify-content: space-evenly;
+    padding: 30px 100px;
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+    align-items: center;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: flex-start;
+    margin: 0px;
+
+}
+
+
+
+p {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
 }
