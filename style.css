@@ -44,9 +44,14 @@ body {
     margin-bottom: 60px;
 }
 
-.header-top, .header-hero {
+.header-top {
     display: flex;
     justify-content: space-between;
+}
+
+.header-hero {
+    display: flex;
+    justify-content: space-between; 
 }
 
 .heroheading {
@@ -70,10 +75,17 @@ body {
     width: 100%;
     height: auto;
     align-self: flex-start;
-
-   
+    display: flex;
+    justify-content: flex-end;
 
 }
+
+.swanseaimage {
+    margin-left: auto;  
+    padding-right: 4px;
+    
+}
+
 
 
 .menulink {
