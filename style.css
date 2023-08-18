@@ -27,6 +27,8 @@ body {
 
 .menu {
     color: #E5E7EB;
+    display: flex; 
+    gap: 16px;
 }
 
 .header-hero {
@@ -68,32 +70,34 @@ body {
     width: 100%;
     height: auto;
     align-self: flex-start;
+
    
 
 }
 
 
-
-ul {
-    list-style: none;
-    display: flex; 
-    gap: 16px;
+.menulink {
+    border-radius: 0px;
+    background: none;
+    padding: 4px;
+    width: 100px; 
+    font-size: 18px;
+    align-self: center;  
 }
 
-li {
-    padding: 0;
-    margin: 0;
+.menulink:hover {
+    border-bottom: 4px solid #E5E7EB;
+    padding-bottom: 0px;
 }
+
+
 
 a {
     text-decoration: none;
     color:unset;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-}
+
 
 h2 {
     margin: 0px;
