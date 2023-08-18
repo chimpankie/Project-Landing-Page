@@ -211,3 +211,8 @@ p {
 h3 {
     margin: 0px;
 }
+
+.footer {
+    padding: 25px;
+    text-align: center;
+}
