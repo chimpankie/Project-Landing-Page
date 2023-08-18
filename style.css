@@ -60,7 +60,7 @@ body {
 
 .herotext {
     flex: 1;
-    gap: 50px;
+    gap: 40px;
 }
 
 .heroimage {
@@ -153,6 +153,7 @@ button {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    gap: 15px;
 
 }
 
